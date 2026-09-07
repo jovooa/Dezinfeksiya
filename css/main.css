@@ -67,7 +67,7 @@
 }
 
 .hero-box {
-    max-width: 600px;
+    max-width: 1200px;
 }
 
 .hero-title {
@@ -93,27 +93,32 @@
     position: relative;
 
 }
-.hero-img1{
+
+.hero-img1 {
     position: absolute;
     bottom: 380px;
 }
-.hero-img2{
+
+.hero-img2 {
     position: absolute;
     bottom: 290px;
     left: 410px;
 }
-.hero-img3{
+
+.hero-img3 {
     position: absolute;
     bottom: 200px;
     left: 450px;
 }
-.hero-img4{
+
+.hero-img4 {
     position: absolute;
     bottom: 80px;
     left: 400px;
 
 }
-.hero-img5{
+
+.hero-img5 {
     margin-top: 100px;
 }
 
@@ -133,8 +138,183 @@
 
 /* ----------------------------------afv--------------------------------- */
 
-.afv-list{
+.list {
+    gap: 30px;
     display: flex;
-    width: 800px;
-    height: 200px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.afv-list {
+    width: 300px;
+}
+
+.afv-title {
+    margin-top: 90px;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: 0%;
+
+}
+
+.afv-item {
+    margin-top: 50px;
+}
+
+.afv-title2 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+
+}
+
+.afv-text {
+    font-family: SF Pro Display;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    color: #666666;
+    line-height: 24px;
+    letter-spacing: 0%;
+
+}
+
+/* -----------------------------box--------------------------------- */
+.box {
+    margin-top: 100px;
+    background-image: url(../imgges/back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.box-title {
+    font-family: Unbounded;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 40px;
+    color: white;
+    line-height: 48px;
+    letter-spacing: 0%;
+
+}
+
+.box-text {
+    margin-top: 20px;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+
+}
+
+.box-list {
+    width: 504px;
+    padding-left: 600px;
+    padding-top: 80px;
+}
+
+.box-btn {
+    padding: 10px 65px;
+    border-radius: 25px;
+    border: none;
+    background: #3360FF;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    color: white;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+    margin-top: 100px;
+}
+
+
+/* ----------------------service------------------------------------ */
+.s-list {
+    display: flex;
+    gap: 30px;
+}
+
+.servise-title1 {
+    
+    margin-top: 30px;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 52px;
+    line-height: 64px;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+
+}
+
+.servise-text {
+    margin-top: 10px;
+    color: #666666;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0%;
+
+}
+
+.servise-list {
+    margin-top: 30px;
+    width: 443px;
+    height: 500px;
+    top: 2148px;
+    left: 40px;
+    border-radius: 12px;
+    opacity: 1;
+    background: #F3F6F6;
+
+}
+
+.servise-title {
+    padding-top: 30px;
+    padding-left: 30px;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+.servise-title2 {
+    margin-top: 15px;
+    margin-left: 30px;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    color: #056AC7;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+
+}
+
+.servise-title3 {
+    margin-top: 10px;
+    margin-left: 30px;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    color: #056AC7;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+.servise-img {
+    margin-top: 240px;
+    margin-left: 260px;
 }
